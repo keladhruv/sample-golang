@@ -5,3 +5,10 @@ spec:
     git:
       branch: main
       repo_clone_url: https://github.com/digitalocean/sample-golang.git
+    envs:
+    - key: test
+      value: "testvalue"
+      type: SECRET
+    - key: test2
+      value: ""
+    - key: test3
